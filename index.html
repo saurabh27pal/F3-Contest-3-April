@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+  <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <div class="container">
+<header>
+    <div>
+        <h2>Header</h2>
+        <div class="p">
+            <p>signup</p>
+            <p>Profile</p>
+        </div>
+    </div>
+</header>
+ 
+<hr>
+        <div class="container1" id="oo">
+            <h1>SignUp</h1>
+            <form class="form" onsubmit="return false">
+                <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass">
+                        </div>
+                        <div>
+                            <label for="Conpass">Comfirm Password</label>
+                            <input type="password" id="Conpass">
+                            </div>
+                            <span id="message"></span>
+                        <div>
+                            <button type="submit" id="button">SIGN UP</button>
+                        </div>
+                         
+            </form>
+        </div>
+        <div id="modal">
+           <div class="rotate">
+
+           </div>
+           <span style="color: rgb(232, 9, 20); font-size: 20px;">Loding...</span>
+             </div>
+    </div>
+  
+    <script src="./signup.js"></script>
+</body>
+</html>
